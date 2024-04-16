@@ -1,0 +1,15 @@
+gniot 1:
+
+INSERT INTO `notepad`(`ID`, `text_iserted`, `time_sent`, `id_tag`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]');
+
+gniot 2:
+
+UPDATE `notepad` SET `ID`='[value-1]',`text_iserted`='[value-2]',`time_sent`='[value-3]',`id_tag`='[value-4]' WHERE text_sent LIKE "value";
+
+gniot 3:
+
+DELETE ID, text_iserted, time_sent, id_tag FROM notepad WHERE text_sent LIKE "value";
+
+gniot 4:
+
+SELECT `ID`, `text_iserted`, `time_sent`, `id_tag` FROM `notepad` WHERE text_sent LIKE "value";

@@ -1,0 +1,30 @@
+querry 1:
+
+INSERT INTO `notes`(`ID`, `id_notepad`, `id_user`, `id_filterTag`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]');
+
+INSERT INTO `notepad`(`ID`, `text_iserted`, `id_user`, `time_sent`, `id_tag`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]');
+
+INSERT INTO `user`(`ID`, `password`, `login`) VALUES ('[value-1]','[value-2]','[value-3]');
+
+INSERT INTO `tags`(`ID`, `name`, `is_nsfw`) VALUES ('[value-1]','[value-2]','[value-3]');
+---------------------------------------
+|  replace [value] with inserted data (incremently for forgein keys) |
+---------------------------------------
+
+querry 2:
+
+update nsfw if clicked on web setting
+
+UPDATE `user` SET `is_nsfw_enabled`='[value-4]';
+
+
+querry 3:
+
+sherch
+
+
+querry 4:
+
+edit
+
+UPDATE `notepad` SET `text_iserted`='[value-2]',`id_tag`='[value-5]',`image_inserted`='[value-6]';
